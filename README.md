@@ -38,6 +38,8 @@ In Blender's Text Editor you will find:
 # Set the output folder
 output_folder = 'your file path'
 
+```
+
 
 
 
