@@ -38,8 +38,13 @@ In Blender's Text Editor you will find:
 # Set the output folder
 output_folder = 'your file path'
 
--Replace the text inside the quotes with the local file path where you want the output files saved.
--Ensure the path uses the correct slash direction for your OS (\\ or /), otherwise Blender may return a syntax error.
--This script is the same as the one in rti_script.
+
+
+
+
+- Replace the text inside the quotes with the local file path where you want the output files saved.
+- Ensure the path uses the correct slash direction for your OS (\\ or /), otherwise Blender may return a syntax error.
+- This script is the same as the one in rti_script.
+
 
 
