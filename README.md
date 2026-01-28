@@ -48,7 +48,7 @@ output_folder = 'your file path'
 ## Running the Script
 
 - Click Play in the Blender Text Editor.
-- Wait for the script to finish running.
+- While the script is running, the Blender workspace will be unresponsive. Normal operation will resume once the process is complete.
 
 ## Final Output
 
