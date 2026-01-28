@@ -26,6 +26,7 @@ After unzipping, you will find:
   - **Important:** if you scale the lights, keep their proportions consistent.
   
 - Adjust the camera focal length if needed (default: **38 mm**).
+- Go to **Properties** → **Camera Settings** → **Depth of Field** and, in the **Focus on Object** field, select the object to focus on.
   
 - When running the script, the camera must remain perpendicular to the object.
   - Recommended: adjust only the Z-axis.
