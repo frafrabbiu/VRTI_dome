@@ -34,6 +34,8 @@ After unzipping, you will find:
 
 ## Configuring the Output
 
+- In the Blender workspace, the output resolution has been set to 8K. If you wish to change it, adjust the format settings in `Output Properties → Format`, located in the third section from the bottom on the right-hand side (Blender 4.3.2).
+
 In Blender's Text Editor, you will find:
 
 ```python
