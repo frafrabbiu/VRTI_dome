@@ -35,25 +35,6 @@ After unzipping, you will find:
 ## Configuring the Output
 
 - In the Blender workspace, the output resolution has been set to 8K. If you wish to change it, adjust the format settings in `Output Properties → Format`, located in the third section from the bottom on the right-hand side (Blender 4.3.2).
-- 
-## Rendering Settings
-
-The rendering settings are fixed as follows:
-
-- **Max samples:** 4096  
-- **Denoise:** disabled  
-- **Noise threshold:** 0.01  
-- **Light path bounces:** 0  
-- **Path guiding:** disabled  
-- **Max bounces:** 0  
-- **Caustics (reflective/refractive):** disabled  
-
-### Light Settings
-
-- **Cast shadows:** disabled  
-- **Multiple importance sampling:** disabled
-
-### Rendering Script – Automation for Virtual RTI
 
 In Blender's Text Editor, you will find:
 
@@ -69,7 +50,6 @@ output_folder = 'your file path'
 **Key features**:
 
 - Sequential rendering: The script produces one image per active light, automatically turning off all other lights, resulting in a complete set of images where each is lit by a single source at a time.
-
 - Light group organization: The script uses the light folder structure present in the .blend file (lights1, lights2, lights3) to identify and manage the light sources.
 
 ## Running the Script
