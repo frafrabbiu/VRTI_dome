@@ -51,7 +51,9 @@ The rendering settings are fixed as follows:
 ### Light Settings
 
 - **Cast shadows:** disabled  
-- **Multiple importance sampling:** disabled  
+- **Multiple importance sampling:** disabled
+
+### Rendering Script – Automation for Virtual RTI
 
 In Blender's Text Editor, you will find:
 
