@@ -32,7 +32,10 @@ After unzipping, you will find:
 - When running the script, the camera must remain perpendicular to the object.
   - Recommended: adjust only the Z-axis.
 
-## Configuring the Output
+## Configuring the name and the Output
+To customize the output render name in Blender’s Text Editor, modify the filename by setting:
+
+base_filename = "filename"
 
 - In the Blender workspace, the output resolution has been set to 8K. If you wish to change it, adjust the format settings in `Output Properties → Format`, located in the third section from the bottom on the right-hand side (Blender 4.3.2).
 
@@ -40,7 +43,7 @@ In Blender's Text Editor, you will find:
 
 ```python
 # Set the output folder
-output_folder = 'your file path'
+output_folder = r'C:/Users/<YOUR_USERNAME>/path_outputfolder'
 
 ```
 - Replace the text inside the quotes with the local file path where you want the output files saved.
@@ -60,6 +63,5 @@ output_folder = 'your file path'
 ## Final Output
 
 - The script generates .jpg render files, ready for import into Relight or any other RTI processing software.
-
-
+- In addition to the rendered image files, a metadata .txt file is generated containing the following information: focal length, sensor fit, camera position (XYZ), render engine, resolution, Cycles sample count, and an exported image list (including each filename and the corresponding lightname).
 
